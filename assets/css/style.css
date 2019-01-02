@@ -1,9 +1,9 @@
-body {
-    background:darkgreen;
+    body {
+    background-image: url("../images/goldSnow.jpg");
 }
 
-#NavBar {
-    background: darkgray;
+#navbar{
+    background: rgba(15,94,48,0.5);
 }
 
 .navbar-nav {
@@ -16,17 +16,17 @@ body {
 }
 
 #name {
-    font-family: 'petit formal script';
+    font-family: 'petit formal script', 'segeo script', cursive;
     font-weight: bold;
     font-size: 3rem;
-    color: darkred;
+    color: #9a0f0f;
 }
 
-.nav-item, .nav-link {
-    font-family: 'petit formal script';
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'petit formal script', 'segeo script', cursive;
     font-weight: bold;
     font-size: 1.5rem;
-    color: blue;
+    color: #0f5e30;
 }
 
 @media only screen and (max-width: 992px) {
@@ -35,7 +35,7 @@ body {
         justify-content: center!important;
     }
 
-    #NavBar {
+    #navbar {
         justify-content: center!important;
     }
 }
