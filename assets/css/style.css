@@ -1,0 +1,41 @@
+body {
+    background:darkgreen;
+}
+
+#NavBar {
+    background: darkgray;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#name {
+    font-family: 'petit formal script';
+    font-weight: bold;
+    font-size: 3rem;
+    color: darkred;
+}
+
+.nav-item, .nav-link {
+    font-family: 'petit formal script';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center!important;
+    }
+
+    #NavBar {
+        justify-content: center!important;
+    }
+}
